@@ -1,0 +1,59 @@
+{
+  "greeting": {
+    "examples": ["hi","hello","hey","hey there","good morning","good afternoon","good evening","hello bot","hii","namaste","namaskar","नमस्ते","नमस्कार","kaise ho","kya haal hai","howdy","hello assistant"],
+    "responses": {
+      "en": ["Hello! I'm EduBot, your student query assistant. Ask me about attendance, timetable, exams, assignments, admissions, fees and more.", "Hi there! How can I help you today?"],
+      "hi": ["नमस्ते! मैं EduBot हूँ। उपस्थिति, टाइम-टेबल, परीक्षा, असाइनमेंट, प्रवेश और फीस के बारे में पूछिए।"],
+      "mr": ["नमस्कार! मी EduBot आहे. उपस्थिती, वेळापत्रक, परीक्षा, असाइनमेंट, प्रवेश आणि फी बद्दल विचारा."]
+    }
+  },
+  "goodbye": {
+    "examples": ["bye","goodbye","see you later","ok bye","talk to you later","alvida","phir milte hain","अलविदा","बाय","चला येतो","take care","that's all","that is all for now","bye bye"],
+    "responses": {
+      "en": ["Goodbye! All the best with your studies.", "See you later! Come back anytime you have a question."],
+      "hi": ["अलविदा! पढ़ाई के लिए शुभकामनाएँ।"],
+      "mr": ["निरोप! अभ्यासासाठी शुभेच्छा."]
+    }
+  },
+  "thanks": {
+    "examples": ["thanks","thank you","thank you so much","thanks a lot","dhanyavad","shukriya","धन्यवाद","आभारी आहे","thx","appreciate it","great help thanks","thanks for the help","ok thanks"],
+    "responses": {
+      "en": ["You're welcome! Anything else I can help with?", "Happy to help! Ask me anything else."],
+      "hi": ["आपका स्वागत है! और कुछ पूछना है?"],
+      "mr": ["आपले स्वागत आहे! आणखी काही विचारायचे आहे का?"]
+    }
+  },
+  "admission": {
+    "examples": ["how to apply for admission","admission process","last date for admission","what documents are needed for admission","eligibility criteria for B.E.","admission form kaha milega","admission kaise le","cut off for cse","प्रवेश प्रक्रिया क्या है","प्रवेशासाठी कागदपत्रे कोणती","is there any management quota","direct second year admission","how can I take admission in this college","admission ke liye kya documents chahiye"]
+  },
+  "exam_schedule": {
+    "examples": ["when is the exam","exam date sheet","exam timetable","when are the end semester exams","dbms exam kab hai","when is the mid term exam","exam kab se shuru hoga","परीक्षा कब है","परीक्षा कधी आहे","exam schedule for semester 7","next exam date","viva date","practical exam date","when will my exams start","hall ticket kab milega"]
+  },
+  "exam_result": {
+    "examples": ["when will results be declared","how to check my result","revaluation process","how to apply for re-exam","kt exam form","result kab aayega","marksheet kaise download kare","photocopy of answer sheet","निकाल कब आएगा","निकाल कधी लागेल","how to get my marksheet","backlog exam form","result declared or not","how to apply for revaluation"]
+  },
+  "assignment": {
+    "examples": ["pending assignments","assignment deadline","when is the assignment due","submit assignment","what assignments are due this week","assignment kab submit karna hai","assignment ki last date","list of assignments for NLP","असाइनमेंट कब जमा करना है","असाइनमेंट कधी जमा करायचे","is assignment extension possible","how to submit assignment online","assignments due tomorrow","mujhe assignment ki deadline batao"]
+  },
+  "attendance": {
+    "examples": ["check my attendance","what is my attendance percentage","attendance shortage","minimum attendance required","meri attendance kitni hai","attendance kitna hai roll number 12","my attendance for roll no 5","attendance criteria","हाजिरी कितनी है","माझी उपस्थिती किती आहे","am I eligible for exam attendance","how many lectures can I miss","show attendance","attendance status batao","attendance percentage kya hai"]
+  },
+  "timetable": {
+    "examples": ["show my timetable","class schedule for today","what lectures do I have tomorrow","monday timetable","aaj ka time table kya hai","kal kaunsi class hai","lecture timings","class kab hai","आज का टाइम टेबल","आजचे वेळापत्रक काय आहे","which room is the NLP lecture","time table for semester 7","what classes are there today","today's lectures"]
+  },
+  "resources": {
+    "examples": ["where can I find study material","library timings","previous year question papers","lecture notes","e-books","notes kaha milenge","library kab khulti hai","syllabus download","NPTEL courses","reference books for NLP","अभ्यास सामग्री कहाँ मिलेगी","अभ्यासाचे नोट्स कुठे मिळतील","question papers PYQ","where to get syllabus"]
+  },
+  "fees": {
+    "examples": ["how to pay fees","fee structure","last date for fee payment","fees kitni hai","fee receipt download","scholarship details","late fee fine","exam fee payment","फीस कैसे भरें","फी कशी भरायची","is fee refundable","installment option","how much is the tuition fee","fees kaise bharni hai"]
+  },
+  "placement": {
+    "examples": ["placement details","which companies visit campus","training and placement cell","internship opportunities","placement eligibility","resume help","placement kab hote hain","कैंपस प्लेसमेंट","प्लेसमेंट कधी","mock interview","average package","how do I register for placements","campus recruitment drive"]
+  },
+  "contact_staff": {
+    "examples": ["I want to talk to a faculty","contact HOD","principal office email","office hours of admin","speak to a human","complain about something","helpdesk number","staff se baat karni hai","मुझे प्राध्यापक से बात करनी है","फैकल्टीशी बोलायचे आहे","grievance redressal","who do I contact for issues","I need to meet the head of department","connect me to office"]
+  },
+  "calendar": {
+    "examples": ["college holidays list","when is diwali vacation","upcoming college events","cultural fest date","technical fest","sports day","chhutti kab hai","हॉलिडे लिस्ट","सुट्ट्या कधी आहेत","is tomorrow a holiday","academic calendar","when does the semester end","kal chutti hai kya","any events this month"]
+  }
+}

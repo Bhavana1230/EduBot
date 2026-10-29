@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduBot — Staff Dashboard</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand"><span class="dot"></span> EduBot <small>Staff Dashboard</small></div>
+    <div class="controls"><a href="/" class="admin-link">← Back to chat</a></div>
+  </header>
+  <main class="admin-layout">
+    <section class="stat-grid" id="statGrid"></section>
+    <section class="two-col">
+      <div class="card wide">
+        <h3>Query volume by intent</h3>
+        <canvas id="intentChart" height="220"></canvas>
+      </div>
+      <div class="card wide">
+        <h3>Sentiment distribution</h3>
+        <canvas id="sentimentChart" height="220"></canvas>
+      </div>
+    </section>
+    <section class="card wide">
+      <h3>Add a knowledge-base answer</h3>
+      <form id="faqForm" class="faq-form">
+        <input id="faqIntent" placeholder="Intent tag (e.g. exam_schedule)" />
+        <input id="faqQ" placeholder="Sample question" required />
+        <textarea id="faqA" placeholder="Answer" required></textarea>
+        <button type="submit">Add to knowledge base</button>
+      </form>
+      <div id="faqMsg" class="sub"></div>
+    </section>
+  </main>
+</div>
+<script src="/static/chart.umd.js"></script>
+<script src="/static/admin.js"></script>
+</body>
+</html>

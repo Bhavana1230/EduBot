@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduBot — Student Query Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand"><span class="dot"></span> EduBot <small>AI-Powered Student Query Assistant</small></div>
+    <div class="controls">
+      <select id="langPref">
+        <option value="auto">Auto-detect language</option>
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="mr">मराठी</option>
+      </select>
+      <button id="resetBtn" title="Reset conversation">Reset</button>
+      <a href="/admin" class="admin-link">Admin</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="chat-panel">
+      <div id="messages" class="messages"></div>
+      <form id="chatForm" class="composer">
+        <input id="msgInput" autocomplete="off" placeholder="Ask about attendance, exams, timetable, fees, admissions... (Hinglish/Hindi/Marathi OK)" />
+        <button type="submit">Send</button>
+      </form>
+      <div class="quick-chips">
+        <button data-q="What is my attendance? roll no 12">My attendance</button>
+        <button data-q="Show my timetable for today">Today's timetable</button>
+        <button data-q="When is the exam timetable?">Exam schedule</button>
+        <button data-q="Pending assignments roll no 12">Pending assignments</button>
+        <button data-q="How to pay fees?">Fees</button>
+        <button data-q="परीक्षा कब है?">परीक्षा कब है?</button>
+      </div>
+    </section>
+
+    <aside class="insight-panel">
+      <h3>NLP Pipeline Trace</h3>
+      <div class="card">
+        <div class="label">Detected language</div>
+        <div id="ivLang" class="value">—</div>
+      </div>
+      <div class="card">
+        <div class="label">Predicted intent</div>
+        <div id="ivIntent" class="value">—</div>
+        <div id="ivConf" class="sub"></div>
+      </div>
+      <div class="card">
+        <div class="label">Top intents</div>
+        <div id="ivTop3" class="chips"></div>
+      </div>
+      <div class="card">
+        <div class="label">Tokens / POS tags</div>
+        <div id="ivPos" class="chips"></div>
+      </div>
+      <div class="card">
+        <div class="label">Named entities</div>
+        <div id="ivEntities" class="chips"></div>
+      </div>
+      <div class="card">
+        <div class="label">Sentiment</div>
+        <div id="ivSentiment" class="value">—</div>
+      </div>
+      <div class="card">
+        <div class="label">Answer source</div>
+        <div id="ivSource" class="value">—</div>
+      </div>
+    </aside>
+  </main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>
